@@ -1,3 +1,5 @@
+#first three codes from main page , name as student
+
 export PROJECT_ID=
 export CLUSTER_NAME=
 export ZONE=
@@ -58,7 +60,9 @@ TASK 4:-
 COMMIT_ID="$(git rev-parse --short=7 HEAD)"
 gcloud builds submit --tag="${REGION}-docker.pkg.dev/${PROJECT_ID}/$REPO/hello-cloudbuild:${COMMIT_ID}" .
 
-
+#open editor 
+#sample -app
+#make changes control s
 
 git add .
 git commit -m "Subscribe to quicklab" 
@@ -67,6 +71,9 @@ git push -u origin dev
 
 
 git checkout master
+
+
+#changes in production in editor
 
 
 git add .
@@ -81,6 +88,9 @@ TASK 5:
 git checkout dev
 
 
+#copy from main page to editor main go
+
+
 git add .
 git commit -m "Subscribe to quicklab" 
 git push -u origin dev
@@ -89,6 +99,7 @@ git push -u origin dev
 
 git checkout master
 
+#make changes from prod
 
 git add .
 git commit -m "Subscribe to quicklab" 
